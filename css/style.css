@@ -6,9 +6,24 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav .brand-logo {
+	font-family: 'Satisfy', cursive;
+	color: #ffff;
+	padding: 0 50px;
+}
+
+.nav-wrapper {
+	background-color: #0ead69;
+}
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
