@@ -16,12 +16,33 @@ nav .brand-logo {
 	padding: 0 2em;
 }
 
+.header {
+	line-height: 1.6em;
+}
+
 .nav-wrapper {
 	background-color: #F39237;
 }
 
 .button-sp {
 	background-color: #ef5340;
+}
+
+.col_servizio {
+	margin-top: 100px;
+}
+
+.col_servizio h4 {
+	font-size: 2.5em;
+}
+
+.col_servizio h5 {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+.card {
+	background-color: #1e91d6;
 }
 
 .icon-block {
@@ -34,4 +55,11 @@ nav .brand-logo {
 
 .page-footer {
 	background-color: #F39237;
+	margin 0;
+}
+
+.social-icon {
+	font-size: 1.5em;
+	color: #fff;
+	padding: 0 20px;
 }
