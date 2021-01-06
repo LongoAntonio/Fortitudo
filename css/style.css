@@ -19,13 +19,15 @@ nav .brand-logo {
 .titolo {
 	font-size: 3em;
 	font-weight: bold;
+	color: #EF5350;
 }
 
 .sottotitolo {
 	font-size: 2.5em;
+	color: #EF5350;
 }
 .mission {
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 .header {
