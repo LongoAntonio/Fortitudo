@@ -35,13 +35,14 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper" >
-        <a href="#" class="brand-logo">Fratellitudo</a>
+        <a href="#" class="brand-logo"><img class="materialboxed" src="SOLOFP.jpg" width="56px" height="56px" alt="logo"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#index-banner">Ascolta</a></li>
           <li><a href="#page-footer">Informazioni</a></li>
+          <li><a href="#donazioni">Donazioni</a></li>
         </ul>
       </div>
 
@@ -50,6 +51,7 @@
     <ul class="sidenav" id="mobile-demo">
       <li><a href="#index-banner">Ascolta</a></li>
       <li><a href="#page-footer">Informazioni</a></li>
+      <li><a href="#donazioni">Donazioni</a></li>
     </ul>
   </div>
 
@@ -117,11 +119,30 @@
     <br><br>
   </div>
   <!-- Donazioni-->
-  <div class="container">
+  <div class="container" id="donazioni">
   	<div class="row center">
   		<h4 class="center"><i class="material-icons">thumb_up_alt</i></h4>
-  		<h5 class="header col s12 light center testuale">Fratellitudo Podcast è un contenuto completamente gratuito, se ti piace quello che stai ascoltando e vuoi sostenerci, puoi offrici un caffè!</h5>
-  		<a href='https://ko-fi.com/Y8Y23610F' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  		<div class="col s12 m8 offset-m2 l6 offset-l3">
+        	<div class="card-panel grey lighten-3 z-depth-3">
+          		<div class="row valign-wrapper">
+            		<div class="col s2">
+              			<img src="SOLOFP.jpg" alt="" class="circle responsive-img">
+            		</div>
+            		<div class="col s10 donazione">
+              			<span class="black-text">Fratellitudo Podcast è un contenuto completamente gratuito, se ti piace quello che stai ascoltando e vuoi sostenerci, puoi offrici un caffè o un pizza!
+              			</span>
+              			<br><br>
+               			<span>
+               			<form action="https://www.paypal.com/donate" method="post" target="_top">
+						<input type="hidden" name="hosted_button_id" value="LWPZ8N8FXBLLQ" />
+						<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
+			   			</form>
+			   			</span>
+            		</div>
+         		</div>
+        	</div>
+       	</div>
   	</div>
   </div>
 
