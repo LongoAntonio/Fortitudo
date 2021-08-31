@@ -1,0 +1,344 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #F39237;
+}
+
+/*Navbar*/
+
+header {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	height: 10vh;
+	align-items: center;
+}
+
+.logo-container{
+	font-family: Satisfy;
+	color: #FFFF;
+	width: 100%;
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+}
+.logo{
+	font-weight: 800;
+	margin: 1rem;
+	font-size: 3rem;
+}
+
+.logo-container img {
+	display: none;
+}
+
+nav {
+	flex: 2;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.mynav{
+	color: #FFFF;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: Raleway;
+}
+
+/* Informations */
+
+main {
+	font-family: Raleway;
+	
+}
+.info-container{
+	display: flex;
+	height: 45vh;
+	width: 90%;
+	margin: auto;
+	}
+
+.mockup{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	}
+
+.phone{
+	display: flex;
+	filter: drop-shadow(0px 4px 3px black);
+}
+
+.title-container{
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.title-container h1{
+	font-size: 50px;
+	font-weight: 800;
+	padding: 0rem 2rem 0rem 2rem;
+}
+.title-container p{
+	font-size: 20px;
+	padding: 0rem 2rem 0rem 2rem;
+	text-align: justify;
+}
+.social-icon{
+	padding: 0rem 6rem 0rem 3rem;
+	font-size: 25px;
+	color: white;
+}
+
+/*presentazione*/
+
+.presentation-container{
+	height: 45vh;
+	background-color: white;
+	width: 100%;
+}
+.exhibition-container{
+	height: 45vh;
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.description{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex: 2;
+	padding: 1rem;
+}
+.description h1{
+	text-align: right;
+	font-size: 50px;
+	font-weight: 800;
+	padding: 0rem 2rem 0rem 2rem;
+}
+.description p{
+	text-align: right;
+	font-size: 20px;
+	padding: 2rem 2rem 0rem 2rem;
+	text-align: justify;
+	direction: rtl;
+}
+.buttons{
+	text-align: right;
+	font-size: 15px;
+	padding: 2rem 2rem 0rem 2rem;
+}
+.buttons a{
+	padding:0.35em 1.2em;
+	border:0.1em solid black;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:black;
+	text-align:center;
+	transition: all 0.2s;
+	border-radius: 6px;
+}
+.buttons a:hover{
+	color:#FFFF;
+	background-color:#F39237;
+}
+
+.fratelli{
+	display: flex;
+	flex: 1;
+	padding: 1rem;
+	filter: drop-shadow(0px 4px 3px black);
+}
+
+/*ascoltaci*/
+.listen-container{
+	height: 45vh;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.listen-container p{
+	padding: 0rem 2rem 2rem 2rem;
+	font-size: 20px;
+	text-align: center;
+}
+
+.spotify{
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.twitch{
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.youtube{
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	/*Navbar*/
+	header{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 10vh;
+	}
+	nav{
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.logo-container{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.logo-container img {
+		display: block;
+		width: 5vh;
+	}
+	.logo{
+		display: none;
+	}
+	.nav-links{
+		width: 100%;
+	}
+	.nav-links a{
+		font-size: 13px;
+		padding:0.3em 1em;
+		border:0.1em solid black;
+		margin:0 0.3em 0.3em 0;
+		border-radius:0.12em;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-weight:300;
+		color:#FFFF;
+		text-align:center;
+		transition: all 0.2s;
+		border-radius: 6px;
+		background-color:#1c1e20;
+	}
+	.nav-links a:hover{
+		color:#1c1e20;
+		background-color:#FFFF;
+	}
+
+	/* Informations */
+
+	.info-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		height: 100%;
+		width: 100%;
+	}
+	.phone {
+		height: 45vh;
+	}
+	.title-container{
+		height: 45vh;
+		text-align: center;
+	}
+	.title-container h1{
+		font-size: 24px;
+		padding: 0px;
+	}
+	.title-container p{
+		font-size: 16px;
+		padding: 1rem 1rem 1rem 1rem;
+	}
+	.social-container{
+		display: flex;
+		justify-content: center;
+	}
+	.social-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem 1.5rem 1rem 1.5rem;
+		color: white;
+		text-decoration: none;
+	}
+
+	/*presentazione*/
+
+	.presentation-container{
+		height: 100%;
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.exhibition-container{
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: space-around;
+		height: 100%;
+		width: 100%;
+		padding: 10rem;
+		padding: 0;
+	}
+	.description{
+		width: 45vh;
+	}
+	.description h1{
+		text-align: center;
+		font-size: 24px;
+		padding: 0;
+	}
+	.description p{
+		text-align: justify;
+		direction: ltr;
+		font-size: 16px;
+		padding: 1rem 1rem 1rem 1rem;
+	}
+	.buttons{
+		text-align: center;
+	}
+	.fratelli img{
+		width: 45vh
+	}
+	/*ascoltaci*/
+	.listen-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		height: 100%;
+		width: 100%;
+		padding: 0em 0em 0em 0em;
+	}
+
+	.listen-container div{
+		padding: 0;
+	}
+
+	.listen-container p{
+		padding: 1em 2em 1em 2em;
+	}
+
+	.listen-container iframe{
+		padding: 0.5em;
+	}
+
+
+
+}
+	
+
