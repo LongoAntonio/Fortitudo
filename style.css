@@ -94,7 +94,7 @@ main {
 }
 .social-icon{
 	padding: 0rem 6rem 0rem 3rem;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 	color: white;
 }
 
@@ -187,33 +187,55 @@ main {
 .youtube{
 	padding: 0rem 2rem 0rem 2rem;
 }
+/*DOnazione*/
+.donation-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #FFFF;
+	padding: 0.5rem;
+	text-align: center;
+}
+.donation-container p{
+	padding: 1rem 0rem;
+	font-size: 0.8vw;
+}
+
+.donation-container form{
+	padding: 0rem 0rem 1rem 0rem;
+}
+
+
 /*footer*/
  footer {
  	font-family: Raleway;
- 	background-color: #FFFF;
+ 	background-color: #F39237;
  	display: flex;
  	flex-direction: column;
  	align-items: center;
  	justify-content: space-around;
+ 	color: #FFFF;
  }
 
 .contactus{
 	font-size: 0.8vw;
 	padding: 1rem 0rem 0rem 0rem;
+	color: black;
 }
 .mail-container{
 	padding: 1rem;
 }
 .social-icon2{
- 	color: black;
- 	font-size: 1.5vw;
+	color: #FFFF;
+ 	font-size: 1.3vw;
  	padding: 0rem 2rem;
  }
 .footer-copyright{
 	font-size: 0.3vw;
 	padding: 1rem;
 	width: 100%;
-	background-color: whitesmoke;
+	color: black;
 }
 .divider{
 	display: none;
@@ -280,8 +302,14 @@ main {
 		height: 100%;
 		width: 100%;
 	}
+	.mockup{
+		height: 100%;
+		width: 100%;
+		justify-content: center;
+		padding: 2rem 0rem 0rem 0rem;
+	}
 	.phone {
-		height: 45vh;
+		max-height: 40vh;
 	}
 	.title-container{
 		height: 45vh;
@@ -303,10 +331,10 @@ main {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding: 1rem 1.5rem 1rem 1.5rem;
+		padding: 1rem 1.5rem 1.5rem 1.5rem;
 		color: white;
 		text-decoration: none;
-		font-size: 30px;
+		font-size: 22px;
 	}
 
 	/*presentazione*/
@@ -367,6 +395,10 @@ main {
 	.listen-container iframe{
 		padding: 0.5em;
 	}
+	/*donazione*/
+	.donation-container p{
+		font-size: 15px;
+	}
 
 	/*footer*/
 
@@ -377,9 +409,12 @@ main {
 	.mail-container{
 		padding: 1rem;
 	}
+	.mail-container i{
+		padding: 0.6rem;
+	}
 	.social-icon2{
-		padding:  1rem;
-		font-size: 30px;
+		font-size: 20px;
+		justify-content: space-around;
 	}
 	.footer-copyright{
 		font-size: 5px;
