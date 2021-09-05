@@ -46,7 +46,7 @@ nav {
 }
 .mynav{
 	color: #FFFF;
-	font-size: 18px;
+	font-size: 22px;
 	text-decoration: none;
 	font-family: Raleway;
 }
@@ -94,7 +94,7 @@ main {
 }
 .social-icon{
 	padding: 0rem 6rem 0rem 3rem;
-	font-size: 1.1vw;
+	font-size: 1.6vw;
 	color: white;
 }
 
@@ -206,7 +206,7 @@ main {
 }
 .social-icon2{
  	color: black;
- 	font-size: 1vw;
+ 	font-size: 1.5vw;
  	padding: 0rem 2rem;
  }
 .footer-copyright{
@@ -215,7 +215,9 @@ main {
 	width: 100%;
 	background-color: whitesmoke;
 }
-
+.divider{
+	display: none;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -236,6 +238,7 @@ main {
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
+		padding: 1rem;
 	}
 	.logo-container img {
 		display: block;
@@ -248,8 +251,8 @@ main {
 		width: 100%;
 	}
 	.nav-links a{
-		font-size: 13px;
-		padding:0.3em 1em;
+		font-size: 17px;
+		padding:0.3em 0.6em;
 		border:0.1em solid black;
 		margin:0 0.3em 0.3em 0;
 		border-radius:0.12em;
@@ -303,7 +306,7 @@ main {
 		padding: 1rem 1.5rem 1rem 1.5rem;
 		color: white;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 30px;
 	}
 
 	/*presentazione*/
@@ -376,14 +379,16 @@ main {
 	}
 	.social-icon2{
 		padding:  1rem;
-		font-size: 18px;
+		font-size: 30px;
 	}
 	.footer-copyright{
 		font-size: 5px;
 		padding: 0.5rem;
 		text-align: center;
 	}
-
+	.divider{
+		display: block;
+	}
 }
 	
 
